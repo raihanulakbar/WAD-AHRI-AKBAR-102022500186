@@ -1,0 +1,182 @@
+body {
+    font-family: Arial;
+    background-color: #f2f2f2;
+    margin: 20px;
+}
+
+h1 {
+    background-color: #4b6cb7;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.menu {
+    background-color: white;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+.menu a {
+    margin-right: 20px;
+    text-decoration: none;
+    color: black;
+}
+
+table {
+    background-color: white;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: #ddd;
+}
+
+button {
+    padding: 10px;
+    background-color: #4b6cb7;
+    color: white;
+    border: none;
+}
+
+.area {
+    display: flex;
+    gap: 20px;
+}
+
+.area .card {
+    background-color: white;
+    padding: 15px;
+    width: 200px;
+}
+
+.area img {
+    width: 200px;
+    height: 130px;
+}
+
+.tersedia {
+    color: green;
+}
+
+.tidak {
+    color: red;
+}
+
+.kotak{
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+/* ===== Tambahan untuk CRUD ===== */
+.area {
+    flex-wrap: wrap;
+}
+
+.area .card img,
+.area .card .noimg {
+    width: 200px;
+    height: 130px;
+    object-fit: cover;
+}
+
+.noimg {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ddd;
+    color: #666;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 14px;
+    background-color: #4b6cb7;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.btn-kecil {
+    padding: 6px 12px;
+    font-size: 14px;
+}
+
+.aksi {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+
+.aksi form {
+    margin: 0;
+}
+
+.btn-hapus {
+    padding: 6px 12px;
+    background-color: #c0392b;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.alert {
+    padding: 12px 15px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+}
+
+.alert-ok {
+    background-color: #d4edda;
+    color: #155724;
+}
+
+.alert-error {
+    background-color: #f8d7da;
+    color: #721c24;
+}
+
+.form {
+    background-color: white;
+    padding: 20px;
+    max-width: 420px;
+}
+
+.form label {
+    display: block;
+    margin: 12px 0 5px;
+    font-weight: bold;
+}
+
+.form input[type=text],
+.form select {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+}
+
+.preview {
+    width: 200px;
+    height: 130px;
+    object-fit: cover;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.aksi-form {
+    margin-top: 20px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.btn-batal {
+    color: #333;
+}
